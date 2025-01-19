@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import pay from "../../assets/images/pay.png";
 const Footer = () => {
   return (
     <div>
@@ -49,11 +49,7 @@ const Footer = () => {
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum{" "}
               </p>
-              <img
-                className="w-75"
-                src="https://www.uiu.ac.bd/wp-content/uploads/2021/02/Card-Logo-Pay-With-01-
-1.png"
-              />
+              <img className="w-75" src={pay} />
             </div>
           </div>
         </div>
